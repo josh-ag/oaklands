@@ -21,7 +21,7 @@ const RenderError = () => {
           onClick={() => navigate(-1)}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-5 px-4 rounded"
         >
-          Button
+          Back
         </button>
       </div>
     </div>
