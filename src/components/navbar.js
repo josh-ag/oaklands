@@ -8,12 +8,15 @@ export const Navbar = () => (
         <p className="text-white text-center">+(2)555-66-73</p>
       </div>
 
-      <Link to="/" className="flex-1 font-sans text-blue-400 text-4xl text-center">
+      <Link to="/" className="flex-1 font-sans text-blue-400 text-2xl md:text-4xl text-center ">
         Oaklands Consultium
       </Link>
 
 
-      <div className="flex flex-2 justify-between gap-6">
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded lg:hidden">Open</button>
+
+
+      <div className="flex-2 justify-between gap-6 hidden lg:flex ">
         <Link to="/" className="text-white text-lg hover:text-blue-400">
           Home
         </Link>
